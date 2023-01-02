@@ -1,4 +1,4 @@
-import {VK} from 'vk-io'
+import { VK } from 'vk-io';
 import { WallWallComment } from 'vk-io/lib/api/schemas/objects';
 // токен пользователя
 const TOKEN = 'token';
