@@ -5,12 +5,20 @@
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "start": "node index.js"
+    "start": "ts-node src/main.ts",
+    "build": "tsc --build"
   },
   "keywords": [],
   "author": "",
   "license": "ISC",
   "dependencies": {
+    "dotenv": "^16.3.1",
+    "prettier": "3.1.1",
+    "ts-node": "^10.9.2",
     "vk-io": "^4.7.0"
+  },
+  "devDependencies": {
+    "@types/node": "^20.10.7",
+    "typescript": "^5.3.3"
   }
 }
